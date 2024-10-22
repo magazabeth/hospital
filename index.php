@@ -12,6 +12,7 @@
 <body>
     <?php
 
+
 include 'conexion.php';
 $sql = "SELECT * FROM citas";
 $resultado= $conn->query ($sql);
